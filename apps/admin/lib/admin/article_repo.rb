@@ -1,6 +1,7 @@
+require "blog/repository"
+require "admin/entities"
+
 module Admin
-  class ArticleRepo
-    def create(attrs)
-    end
+  class ArticleRepo < Blog::Repository[:articles]
   end
 end
