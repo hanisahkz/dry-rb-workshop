@@ -10,7 +10,7 @@ RSpec.describe Admin::ArticleRepo do
       article = repo.create(title: "Test article", status: "draft", author_id: author.id)
 
       expect(article.title).to eq "Test article"
-      expect(article.id).to be_an Integer
+      expect(article.id).to be_an Integer #this shows the record being created
     end
   end
 
