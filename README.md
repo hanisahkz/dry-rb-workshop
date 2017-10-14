@@ -253,3 +253,4 @@ This is just the beginning of working app. We can do more!
   - `admin/articles/new`
   - `admin/articles/:id/edit`
 - Add user authentication to the admin area
+# dry-rb-workshop
